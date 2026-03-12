@@ -23,7 +23,7 @@ The CLI automatically checks for updates once every 24 hours when you run any co
 
 When an update is available, you'll see an interactive command prompt with the following information:
 - Current and latest version numbers
-- Release notes
+- Link to the release
 - Update instructions
 
 ## Releases
