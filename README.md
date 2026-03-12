@@ -10,10 +10,6 @@ Standalone binaries for Dash by Docker. Install and use without Docker Desktop.
 
 ```bash
 brew install docker/tap/ds
-
-# or add the tap first for access to all Docker formulas:
-brew tap docker/tap
-brew install ds
 ```
 
 ### WinGet
