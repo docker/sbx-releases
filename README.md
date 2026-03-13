@@ -7,15 +7,15 @@ Safe environments for agents. Built by Docker.
 Dash provides sandboxes with controlled access to your filesystem, network, and tools. This means your agents can work autonomously without putting your machine or data at risk.
 
 # Details
-• Docker-native isolation. Same containerization principles trusted by 20M+ developers.
-• Vendor-neutral. Works with the models and tools you’re already using.
+- Docker-native isolation. Same containerization principles trusted by 20M+ developers.
+- Vendor-neutral. Works with the models and tools you’re already using.
 
 # What you get
-• YOLO mode by default: agents work without asking permission
-• Private Docker daemon for running test containers
-• File access controls between host and sandbox
-• Network access control
-• Works with Claude Code, Codex, Gemini CLI, OpenCode, and more
+- YOLO mode by default: agents work without asking permission
+- Private Docker daemon for running test containers
+- File access controls between host and sandbox
+- Network access control
+- Works with Claude Code, Codex, Gemini CLI, OpenCode, and more
 
 # Install
 
