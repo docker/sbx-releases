@@ -1,10 +1,23 @@
-# Dash by Docker 
-
-Standalone binaries for Dash by Docker. Install and use without Docker Desktop.
+# Dash
+Safe environments for agents. Built by Docker.
 
 [![GitHub Release](https://img.shields.io/github/v/release/docker/dash-releases?color=2560ff&labelColor=e7eaef)](https://github.com/docker/dash-releases/releases/latest)
 
-## Installation
+# What it does
+Dash provides sandboxes with controlled access to your filesystem, network, and tools. This means your agents can work autonomously without putting your machine or data at risk.
+
+# Details
+• Docker-native isolation. Same containerization principles trusted by 20M+ developers.
+• Vendor-neutral. Works with the models and tools you’re already using.
+
+# What you get
+• YOLO mode by default: agents work without asking permission
+• Private Docker daemon for running test containers
+• File access controls between host and sandbox
+• Network access control
+• Works with Claude Code, Codex, Gemini CLI, OpenCode, and more
+
+# Install
 
 ### Homebrew
 
@@ -17,15 +30,9 @@ brew install docker/tap/ds
 winget install -h Docker.ds
 ```
 
-## Updates
+# Learn more
+[Docs​​​​​​​​​​​​​​​​](https://docs.docker.com/ai/sandboxes/)
 
-The CLI automatically checks for updates once every 24 hours when you run any command (except `daemon` or `version`).
-
-When an update is available, you'll see an interactive command prompt with the following information:
-- Current and latest version numbers
-- A link to the release
-- Update instructions
-
-## Releases
-
-All releases include signed binaries with SBOM and provenance attestations. See the [releases page](https://github.com/docker/dash-releases/releases) for version history and release notes.
+# License
+Proprietary — Docker Inc.
+https://github.com/docker/dash-releases/blob/HEAD/LICENSE
