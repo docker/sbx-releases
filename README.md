@@ -35,4 +35,4 @@ winget install -h Docker.sbx
 
 # License
 Proprietary — Docker Inc.
-https://github.com/docker/sbx-releases/blob/HEAD/LICENSE
+[LICENSE](https://github.com/docker/sbx-releases/blob/HEAD/LICENSE)
