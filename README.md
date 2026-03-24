@@ -1,10 +1,10 @@
-# Dash
+# Docker Sandboxes
 Safe environments for agents. Built by Docker.
 
-[![GitHub Release](https://img.shields.io/github/v/release/docker/dash-releases?color=2560ff&labelColor=e7eaef)](https://github.com/docker/dash-releases/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/docker/sbx-releases?color=2560ff&labelColor=e7eaef)](https://github.com/docker/sbx-releases/releases/latest)
 
 # What it does
-Dash provides sandboxes with controlled access to your filesystem, network, and tools. This means your agents can work autonomously without putting your machine or data at risk.
+It provides sandboxes with controlled access to your filesystem, network, and tools. This means your agents can work autonomously without putting your machine or data at risk.
 
 # Details
 - Docker-native isolation. Same containerization principles trusted by 20M+ developers.
@@ -22,12 +22,12 @@ Dash provides sandboxes with controlled access to your filesystem, network, and 
 ### Homebrew
 
 ```bash
-brew install docker/tap/ds
+brew install docker/tap/sbx
 ```
 
 ### WinGet
 ```powershell
-winget install -h Docker.ds
+winget install -h Docker.sbx
 ```
 
 # Learn more
@@ -35,4 +35,4 @@ winget install -h Docker.ds
 
 # License
 Proprietary — Docker Inc.
-https://github.com/docker/dash-releases/blob/HEAD/LICENSE
+https://github.com/docker/sbx-releases/blob/HEAD/LICENSE
