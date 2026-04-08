@@ -57,20 +57,20 @@ and double-click to install, or use the command line:
 msiexec /i DockerSandboxes.msi /quiet
 ```
 
-### Ubuntu / Debian
+### Ubuntu
 
 Download the `.deb` package from the release and install:
 
 ```bash
-sudo apt install ./DockerSandboxes-linux-amd64.deb
+sudo apt install ./DockerSandboxes-linux-amd64-ubuntu2604.deb
 ```
 
-### RHEL / Fedora
+### Rocky Linux 8
 
 Download the `.rpm` package from the release and install:
 
 ```bash
-sudo dnf install ./DockerSandboxes-linux-amd64.rpm
+sudo dnf install ./DockerSandboxes-linux-amd64-rockylinux8.rpm
 ```
 
 ## Nightly releases
