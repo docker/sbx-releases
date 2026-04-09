@@ -35,7 +35,7 @@ brew install docker/tap/sbx
 winget install -h Docker.sbx
 ```
 
-### Linux (Ubuntu)
+### APT (Ubuntu)
 
 ```bash
 curl -fsSL https://get.docker.com | sudo REPO_ONLY=1 sh
