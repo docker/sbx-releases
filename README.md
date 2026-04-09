@@ -35,6 +35,16 @@ brew install docker/tap/sbx
 winget install -h Docker.sbx
 ```
 
+### Linux (Ubuntu)
+
+```bash
+curl -fsSL https://get.docker.com | sudo REPO_ONLY=1 sh
+sudo apt-get install docker-sbx
+sudo usermod -aG kvm $USER
+newgrp kvm
+```
+
+
 ## Manual install from release artifacts
 
 Download the artifacts for your platform from the
