@@ -102,6 +102,18 @@ follow the manual install instructions above.
 If you run into issues or have feedback, please
 [open an issue](https://github.com/docker/sbx-releases/issues) on this repository.
 
+# Managing Your Sandboxes
+
+Once you have started an agent, use these commands to monitor and manage your isolated environments:
+
+| Command | Description |
+| -------- | -------- |
+| sbx ls   | List all active and exited sandbox sessions   |
+| sbx logs <id>   | View the output and execution logs of a specific sandbox   |
+| sbx stop <id>   | Gracefully shut down a running sandbox.   |
+| sbx rm <id>   | Remove a sandbox and its associated temporary resources.   |
+| sbx version   | 	Check your current CLI version and build metadata.   |
+
 # Learn more
 
 [Docs](https://docs.docker.com/ai/sandboxes/)
