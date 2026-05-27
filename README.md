@@ -91,7 +91,7 @@ Nightly builds from `main` are available at
 On macOS, you can install the nightly build via Homebrew:
 
 ```bash
-brew install docker/tap/ds@nightly
+brew install docker/tap/sbx@nightly
 ```
 
 For other platforms, download the artifacts from the nightly release page and
