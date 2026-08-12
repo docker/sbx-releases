@@ -83,6 +83,38 @@ Download the `.rpm` package from the release and install:
 sudo dnf install ./DockerSandboxes-linux-amd64-rockylinux8.rpm
 ```
 
+## Release candidates
+
+Release candidates are the builds each stable release is promoted from, so they
+are the best way to try a version before it ships. They are published as
+prereleases tagged `vX.Y.Z-rcN` on the
+[releases page](https://github.com/docker/sbx-releases/releases), carrying the
+same artifacts as a stable release.
+
+On macOS, you can install the current release candidate via Homebrew:
+
+```bash
+brew install docker/tap/sbx@rc
+```
+
+The `sbx`, `sbx@rc`, and `sbx@nightly` casks conflict with each other, so
+uninstall the one you already have before switching:
+
+```bash
+brew uninstall --cask docker/tap/sbx
+brew install docker/tap/sbx@rc
+```
+
+Release candidates are not published to WinGet or to the apt/dnf repositories —
+those channels carry stable releases only. On Windows and Linux, download the
+artifacts from the release candidate's own page and follow the manual install
+instructions above. Because a release candidate is a prerelease,
+`/releases/latest` never resolves to one; use the RC tag explicitly:
+
+```
+https://github.com/docker/sbx-releases/releases/download/<RC-TAG>/DockerSandboxes.msi
+```
+
 ## Nightly releases
 
 Nightly builds from `main` are available at
