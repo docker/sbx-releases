@@ -23,6 +23,9 @@ It provides sandboxes with controlled access to your filesystem, network, and to
 
 # Install
 
+For complete prerequisites and additional setup guidance, see the
+[Docker Sandboxes documentation](https://docs.docker.com/ai/sandboxes/).
+
 ### Homebrew (macOS)
 
 ```bash
