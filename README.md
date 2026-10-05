@@ -132,6 +132,10 @@ brew install docker/tap/sbx@nightly
 For other platforms, download the artifacts from the nightly release page and
 follow the manual install instructions above.
 
+# Community projects
+
+Explore community projects and resources in [awesome-docker-sbx](https://github.com/ajeetraina/awesome-docker-sbx/).
+
 # Feedback
 
 If you run into issues or have feedback, please
